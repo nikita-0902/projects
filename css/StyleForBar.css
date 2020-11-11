@@ -1,0 +1,354 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  background: #333;
+}
+
+.numbers li{
+  list-style: none;
+  height: 30px;
+
+  color: #fff;
+  position: relative;
+}
+.numbers span{
+font-size: 15px;
+
+
+}
+
+.bars li{
+
+list-style: none;
+width: 40px;
+
+}
+.bars {
+color: #fff;
+display: flex;
+flex-direction: row;
+margin-bottom: -35px;
+}
+
+#graph.graph{
+  
+  border: 1px solid #77FF5C;
+  padding: 5px;
+  margin-bottom: 0px;
+}
+#graph .item{
+  margin: 2px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  padding: 3px;
+  border-radius: 3px;  
+  
+}
+#graph .green:hover{
+  background-color: greenyellow;  
+  box-shadow: 0 0 2px greenyellow;
+}
+#graph .red:hover{
+  background-color: tomato;  
+  box-shadow: 0 0 2px tomato;
+}
+#graph .yellow:hover{
+  background-color: darkorange; 
+  box-shadow: 0 0 2px darkorange;
+}
+
+#graph.horizontal{
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  width: 100%;
+}
+#graph.horizontal .item{
+  height: 20px;
+  text-align: right;
+}
+
+.red{
+    background-color: red;
+}
+.yellow{
+  background-color: yellow;
+}
+.green{
+  background-color: green;
+}
+.div1{
+  width: 4%;
+  animation: div1 4s;
+}
+
+@keyframes div1 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 4%;
+  }
+}
+
+.div2{
+  width: 9%;
+  animation: div2 4s;
+}
+
+@keyframes div2 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 9%;
+  }
+}
+
+.div3{
+  width: 14%;
+  animation: div3 4s;
+}
+
+@keyframes div3 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 14%;
+  }
+}
+
+.div4{
+  width:19%;
+  animation: div4 4s;
+}
+
+@keyframes div4 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 19%;
+  }
+}
+
+.div5{
+  width:24%;
+  animation: div4 4s;
+}
+
+@keyframes div5 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 24%;
+  }
+}
+
+
+.div6{
+  width:29%;
+  animation: div6 4s;
+}
+
+@keyframes div6 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 29%;
+  }
+}
+
+.div7{
+  width:34%;
+  animation: div7 4s;
+}
+
+@keyframes div7 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 34%;
+  }
+}
+
+.div8{
+  width:39%;
+  animation: div8 4s;
+}
+
+@keyframes div8 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 39%;
+  }
+}
+
+.div9{
+  width:44%;
+  animation: div9 4s;
+}
+
+@keyframes div9 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 44%;
+  }
+}
+
+.div10{
+  width:49%;
+  animation: div10 4s;
+}
+
+@keyframes div10 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 49%;
+  }
+}
+.div11{
+  width:54%;
+  animation: div11 4s;
+}
+
+@keyframes div11 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 54%;
+  }
+}
+
+.div12{
+  width:59%;
+  animation: div12 4s;
+}
+
+@keyframes div12 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 59%;
+  }
+}
+.div13{
+  width:64%;
+  animation: div13 4s;
+}
+
+@keyframes div13 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 64%;
+  }
+}
+.div14{
+  width:69%;
+  animation: div14 4s;
+}
+
+@keyframes div14 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 69%;
+  }
+}
+.div15{
+  width:74%;
+  animation: div15 4s;
+}
+
+@keyframes div15 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 74%;
+  }
+}
+
+.div16{
+  width:79%;
+  animation: div16 4s;
+}
+
+@keyframes div16 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 79%;
+  }
+}
+.div17{
+  width:84%;
+  animation: div17 4s;
+}
+
+@keyframes div17 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 84%;
+  }
+}
+.div18{
+  width:89%;
+  animation: div18 4s;
+}
+
+@keyframes div18 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 89%;
+  }
+}
+.div19{
+  width:94%;
+  animation: div19 4s;
+}
+
+@keyframes div19 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 94%;
+  }
+}
+.div20{
+  width:99%;
+  animation: div20 4s;
+}
+
+@keyframes div20 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 99%;
+  }
+}
